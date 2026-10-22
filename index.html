@@ -1,101 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scake=1.0">
-    <title>Daishi Nakagawa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIN135 - Midterm Exam | Portfolio</title>
+    <link rel=" stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-     <body>
-    <header>
-        <nav>
-            <a href="#profile">Profile</a>
-            <span></span>
-            <a href="#skills">Skills</a>
-            <span></span>
-            <a href="#education">Education</a>
-            <span></span>
-            <a href="aa">Award and Achivements</a>
-            <span></span>
-            <a href="#contact">Contact</a>
-            <span></span>
-        </nav>
+
+<body id="top">
+
+    <!-- ---------- Navigation ---------- -->
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="#top" class="nav-brand">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ---------- Header ---------- -->
+    <header class="site-header">
+        <div class="header-inner clearfix">
+
+            <div class="photo-box">
+                <div class="photo-frame">
+                    <!-- Replace the image with your own profile picture -->
+                    <img class="photo" src="1000019168.jpg" alt="Daishi">
+                </div>
+            </div>
+
+            <div class="header-text">
+                <h1 class="name">Daishi Nakagawa</h1>
+                <ul class="header-links">
+                    <li><a href="tel:+639935862936">+63 993 586 2936</a></li>
+                    <li><a href="mailto:nakagawa2434967@mls.ceu.edu.ph">nakagawa2434967@mls.ceu.edu.ph</a></li>
+                    <li><a href="https://github.com/meiyy0710" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                </ul>
+                <p class="profile">
+                    An IT student who enjoys building clean, responsive websites.
+                    I like turning ideas into simple, easy-to-use web pages and
+                    I'm always learning new tools and techniques.
+                </p>
+            </div>
+
+        </div>
     </header>
-        <main>
 
-            <section id="profile">
-                <img src = "https://media.licdn.com/dms/image/v2/D5603AQEN6_ebU1LQPw/profile-displayphoto-scale_200_200/B56Z7BB2nOKsAg-/0/1781354951187?e=2147483647&v=beta&t=rMBHonqK0GFENgH30vu5UEnPc-6WtRux8is_AXb9G8Q"/>
-                <h3>Personal Information</h3>
-                <p><strong>Name:</strong>Daishi R. Nakagawa</p>
-                <p><strong>Email:</strong>nakagawa2434967@mls.ceu.edu.ph</p>
-                <p><strong>Contact Number:</strong>09935862936</p>
-                <p>I am a Information Technology student From Ceu Malolos</p>
+    <main class="wrapper">
 
+        <!-- ---------- Skills ---------- -->
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>Git & GitHub</li>
+                <li>UI Design</li>
+                <li>Problem Solving</li>
+                <li>Teamwork</li>
+            </ul>
+        </section>
 
-            <section id="skills"> 
-                <h2>Skills</h2>
-                <ul>
-                    <li>Time Management</li>
-                    <li>Hardworking</li>
-                    <li>Organize</li>
-                </ul>
-            </section>
+        <!-- ---------- Education ---------- -->
+        <section id="education" class="card">
+            <h2>Education</h2>
 
+            <div class="entry">
+                <span class="entry-year">2024 - Present</span>
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p class="entry-school">Central Escolar University, Malolos</p>
+            </div>
 
-            <section id="education"> 
-                <h2>Education</h2>
-                <ul>
-                    <li><strong>Elementary:</strong>Harvester's Missions International School</li>
-                    <li><strong>Highschool:</strong>Harvester's Missions International School</li>
-                    <li><strong>College:</strong>Centro Escolar University</li>
-                </ul>
-            </section>
+            <div class="entry">
+                <span class="entry-year">2021-2023</span>
+                <h3>Senior High School - GAS Strand</h3>
+                <p class="entry-school">Harvester's Mission International School</p>
+            </div>
+        </section>
 
-            <section id="awards">
-                <h3>Awards and Achivements</h3>
-               <ul>
-                    <li>School of Tomorrow Junior Student Convention 100Meter Dash Champion(2018)</li>
-                    <li>School of Tomorrow Junior Student Convention 200Meter Dash Champion(2018)</li>
-                    <li>School of Tomorrow Junior Student Convention BasketBall Men's Champion(2019)</li>
-                </ul>
-            </section>  
-            
-            <section id="Contact"> 
-            <h2>Contact</h2>
-            <form>
+        <!-- ---------- Achievements ---------- -->
+        <section id="achievements" class="card">
+            <h2>Achievements</h2>
+            <ul class="achievement-list">
+                <li>
+                    <strong>Dean's Lister</strong> - 2nd Semester, A.Y. 2024-2025
+                </li>
+                <li>
+                    <strong>1st Place, Campus Web Design Contest</strong> - 2024
+                </li>
+                <li>
+                    <strong>Certificate in Responsive Web Design</strong> - freeCodeCamp, 2024
+                </li>
+                <li>
+                    <strong>With Honors</strong> - Senior High School, 2021-2023
+                </li>
+            </ul>
+        </section>
 
-                <div>
-                <label for="name">Name:</label><br/>
-                <input id="name" type="text" placeholder="Lebreon James" required>
-                </div> <br/>
+        <!-- ---------- Contact me ---------- -->
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-row clearfix"> 
+                    <div class="field field-left">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
 
-                <div>
-                <label for="emaiL">Email:</label><br/>
-                <input id="email" type="email" placeholder="example@gmail.com" required>
-                </div><br/>
+                    <div class="field field-right">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+                </div>
 
-                <div>
-                <label for="message">Message:</label><br/>
-                <input id="Message" row="3" placeholder="Enter your message here" required>
-                </div><br/>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
 
-                <button type="submit">Contact Me</button>
+                <button type="submit">Send Message</button>
             </form>
-            </section>  
-        </main>   
-        <footer>
-        <nav>
-            <a href="#profile">Profile</a>
-            <span></span>
-            <a href="#skills">Skills</a>
-            <span></span>
-            <a href="#education">Education</a>
-            <span></span>
-            <a href="aa">Award and Achivements</a>
-            <span></span>
-            <a href="#contact">Contact</a>
-            <span></span>
-        </nav>
-        </footer>
+        </section>
 
-    </body>
-</html> 
+    </main>
+
+    <!-- ---------- Footer ---------- -->
+    <footer class="site-footer">
+        <p class="footer-name">Daishi Nakagawa &middot; Portfolio</p>
+        <a href="#top" class="back-to-top">Back to top &uarr;</a>
+    </footer>
+
+</body>
+
+</html>
